@@ -1,0 +1,4 @@
+# Con esta configuración "gitignore" le decimos a git que archivos no queremos que le haga seguimiento
+#Lo que se hace es que tanto la carpeta de node_modules y dist no sean tomadas en cuenta en proceso que hara git para ir guardando en nustro repositorio, y el motivo es qu eesas carpetas son volátiles
+node_modules/ 
+dist/
